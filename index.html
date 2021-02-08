@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <form>
+      <label class="block">insert your name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="block"
+        placeholder="Fabrizio"
+        onChange="updateData('name')"
+      >
+      <label class="block">insert your address</label>
+      <input
+        type="text"
+        name="address"
+        id="address"
+        class="block"
+        placeholder="Mordor"
+        onChange="updateData('address')"
+      >
+      <label class="block">insert your phone number</label>
+      <input
+        type="text"
+        name="phone"
+        id="phone"
+        class="block"
+        placeholder="123342"
+        onChange="updateData('phone')"
+      >
+      <button class="block" onClick="submitData()">send data</button>
+    </form>
+    <script src="frontend_shit.js"></script>
+  </body>
+</html>
